@@ -193,7 +193,7 @@ void MyARPSend::convert_ip_to_MAC(string &IP, string &MAC)
                 if(tmp_IP == IP)
                 {
                     string tmp_MAC;
-                    ptrARP->get_arp_tha(tmp_MAC);
+                    ptrARP->get_arp_sha(tmp_MAC);
                     MAC = tmp_MAC;
                     break;
                 }
